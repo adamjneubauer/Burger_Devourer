@@ -1,0 +1,81 @@
+body {
+    background-color: tan;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#burger-pic {
+    width: 250px;
+    height: auto;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.tagline {
+    font-size: 100px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.devour-btn {
+    color: black;
+    background-color: yellow
+}
+
+.devour-btn:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.burger-text {
+    background-color: brown;
+    border-bottom: 1px solid whitesmoke;
+    color: black;
+}
+
+.devoured-text {
+    background-color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    color: black;
+}
+
+.burger-text:first-child {
+    border-top-left-radius: .25em;
+    
+}
+.burger-text:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: .25em;
+    
+}
+
+.devoured-text:first-child {
+    border-top-right-radius: .25em;
+    
+}
+.devoured-text:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: .25em;
+    
+}
+
+.add-btn {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.add-btn:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.delete-btn {
+    font-family: 'Deja Vu', 'Arial Unicode MS', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+    color: red;
+}
+
